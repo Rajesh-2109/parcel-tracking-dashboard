@@ -1,0 +1,79 @@
+{
+  "parcels": [
+    {
+      "id": "PKG10001",
+      "trackingId": "PKG10001",
+      "sender": "Rajesh",
+      "receiver": "Arun",
+      "origin": "Karur",
+      "destination": "Chennai",
+      "currentLocation": "Salem",
+      "status": "In Transit",
+      "pickupDate": "2026-08-18",
+      "expectedDeliveryDate": "2026-08-24",
+      "weight": "2.5 KG",
+      "courierType": "Express",
+      "trackingHistory": [
+        { "date": "2026-08-18 09:10", "location": "Karur", "status": "Picked Up", "description": "Parcel picked up from sender" },
+        { "date": "2026-08-19 14:30", "location": "Karur Hub", "status": "In Transit", "description": "Departed origin facility" },
+        { "date": "2026-08-21 08:45", "location": "Salem", "status": "In Transit", "description": "Arrived at transit hub" }
+      ]
+    },
+    {
+      "id": "PKG10002",
+      "trackingId": "PKG10002",
+      "sender": "Kumar",
+      "receiver": "Vijay",
+      "origin": "Coimbatore",
+      "destination": "Bangalore",
+      "currentLocation": "Bangalore",
+      "status": "Delivered",
+      "pickupDate": "2026-08-10",
+      "expectedDeliveryDate": "2026-08-14",
+      "weight": "1.2 KG",
+      "courierType": "Standard",
+      "trackingHistory": [
+        { "date": "2026-08-10 10:00", "location": "Coimbatore", "status": "Picked Up", "description": "Parcel picked up from sender" },
+        { "date": "2026-08-11 16:20", "location": "Coimbatore Hub", "status": "In Transit", "description": "Departed origin facility" },
+        { "date": "2026-08-13 09:05", "location": "Bangalore Hub", "status": "Out for Delivery", "description": "Out for delivery" },
+        { "date": "2026-08-13 15:40", "location": "Bangalore", "status": "Delivered", "description": "Delivered to receiver" }
+      ]
+    },
+    {
+      "id": "PKG10003",
+      "trackingId": "PKG10003",
+      "sender": "Priya",
+      "receiver": "Divya",
+      "origin": "Salem",
+      "destination": "Madurai",
+      "currentLocation": "Salem",
+      "status": "Pending",
+      "pickupDate": "2026-08-23",
+      "expectedDeliveryDate": "2026-08-27",
+      "weight": "0.8 KG",
+      "courierType": "Standard",
+      "trackingHistory": [
+        { "date": "2026-08-23 11:00", "location": "Salem", "status": "Pending", "description": "Booking confirmed, awaiting pickup" }
+      ]
+    },
+    {
+      "id": "PKG10004",
+      "trackingId": "PKG10004",
+      "sender": "Suresh",
+      "receiver": "Manoj",
+      "origin": "Erode",
+      "destination": "Chennai",
+      "currentLocation": "Chennai Hub",
+      "status": "Out for Delivery",
+      "pickupDate": "2026-08-19",
+      "expectedDeliveryDate": "2026-08-23",
+      "weight": "3.1 KG",
+      "courierType": "Express",
+      "trackingHistory": [
+        { "date": "2026-08-19 09:30", "location": "Erode", "status": "Picked Up", "description": "Parcel picked up from sender" },
+        { "date": "2026-08-20 12:15", "location": "Erode Hub", "status": "In Transit", "description": "Departed origin facility" },
+        { "date": "2026-08-22 07:50", "location": "Chennai Hub", "status": "Out for Delivery", "description": "Out for delivery to receiver" }
+      ]
+    }
+  ]
+}
